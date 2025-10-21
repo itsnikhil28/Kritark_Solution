@@ -1,0 +1,41 @@
+:root {
+    --panel-header: #f6d5a6;
+    /* soft peach */
+    --muted: #9aa0a6;
+}
+
+.panel {
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 6px 14px rgba(16, 24, 40, 0.06);
+    overflow: hidden;
+}
+
+.field-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 1.25rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06)
+}
+
+.field-label {
+    font-weight: 600;
+    color: #222
+}
+
+.field-value {
+    color: var(--muted)
+}
+
+/* small decorative left border for the red document row in the example */
+.doc-row {
+    background: #c53939;
+    color: white
+}
+
+@media (max-width:640px) {
+    .field-row {
+        padding: 0.9rem
+    }
+}
