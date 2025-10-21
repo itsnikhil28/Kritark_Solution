@@ -43,6 +43,7 @@ Authentication	          Laravel Breeze + Sanctum
 Build Tools	              Vite + PostCSS + Autoprefixer
 Alerts & UI Enhancements	Lucide React Icons
 🚀 Getting Started
+
     1️⃣ Clone the Repository
     git clone https://github.com/itsnikhil28/kritark_solution.git
     cd kritark-solution
